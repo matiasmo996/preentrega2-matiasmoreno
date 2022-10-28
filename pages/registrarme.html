@@ -10,10 +10,44 @@
 </head>
 <body class="bodyform">
 <header>
-<nav>
+<nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Crear Cuenta</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" <a href="./index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mi Perfil</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Ingresar a cuenta</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
     <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./pages/contacto.html">Contacto</a></li>
+        <li>Inicio</a></li>
+        <li><a>Contacto</a></li>
         <li><a href="./miperfil.html">Mi Perfil</a></li>
         <li><a href="./registrarme.html">Crear Cuenta</a></li>
         <li><a href="../ingresar.html">Ingresar a mi cuenta</a></li>
@@ -25,7 +59,10 @@
 </header>
 <main>
 
-    <section class="form-register">
+    <section class="form-register" class="d-flex justify-content-center">
+        <div class="card col sm-6 p-3">
+        <div class="mb-3">
+            <form>
         <h4>Formulario Registro</h4>
         <input class="controls" type="text" name="nombres"id="nombres" placeholder="ingrese su nombre">
         <input class="controls"type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
@@ -34,6 +71,10 @@
         <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
         <input class="boton" type="submit"value="registrar">
         <p><a href="#">¿Ya tengo cuenta?</a></p>
+        </div>
+    </form>
+    </div>
+    </div>
     </section>
 </main>
 <footer class="footerboton">
