@@ -12,13 +12,16 @@ a{
 header{
     background-color:rgba(135, 205, 222, 0.723);
     font-size:26px;
-    padding:  3px
+    padding:  3px;
+    color:white
 }
 header h1{
     text-align: center;
     font-size: 38px;
 }
-
+.celeste{
+    background-color: #2f54a4
+}
 header nav{
     width:fit-content;
     margin:3px auto
@@ -31,7 +34,7 @@ header nav ul li{
     padding: 5px 5px;
 }
 header nav ul li a{
-    color:rgb(16, 10, 10)
+    color:rgba(24, 14, 14, 0.925)
 }
 
 .tituloSeccion{
